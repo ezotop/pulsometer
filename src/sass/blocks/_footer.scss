@@ -1,0 +1,50 @@
+.footer {
+    position: relative;
+    height: 630px;
+    &__contact {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 50px;
+        width: 460px;
+        height: 270px;
+        background-color: $main-color;
+    }
+    &__address {
+        margin-bottom: 0;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+    }
+    &__phone {
+        margin-top: 36px;
+        display: block;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        margin-top: 38px;
+    }
+    &__round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        border: 2px solid #fff;
+        border-radius: 100%;
+        margin: 0 10px;
+        img {
+            height: 27px;
+        }
+    }
+}
