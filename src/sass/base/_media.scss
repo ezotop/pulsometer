@@ -344,4 +344,21 @@
 			}
 		}
 	}
+	.modal {
+		min-height: 150px;
+		width: 90%;
+		padding: 30px 20px 20px 20px;
+		&__close {
+			right: 3px;
+		}
+		&__subtitle {
+			font-size: 15px;
+		}
+		&__descr {
+			font-size: 12px;
+		}
+		.feed-form {
+			width: 100%;
+		}
+	}
 }
