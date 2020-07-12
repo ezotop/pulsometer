@@ -1,3 +1,10 @@
+@media (max-width: 1200px) {
+	.pageup {
+		bottom: 20px;
+		right: 20px;
+	}
+}
+
 @media (max-width: 991px) {
 	.container {
 		max-width: 90vw;
@@ -21,14 +28,12 @@
 				list-style-type: none;
 				margin-bottom: 0;
 				padding-left: 0;
-				/* position: absolute;
-				bottom: -25px;
-				display: block;
-				width: 100%;
-				padding: 0;
-				margin: 0;
-				list-style: none;
-				text-align: center; */
+				/* button {
+					width: 5px;
+					height: 5px;
+					border-radius: 100%;
+					background-color: black;
+				} */
 			}
 		}
 	}
@@ -162,6 +167,10 @@
 				height: 150px;
 			}
 		}
+	}
+	.pageup {
+		bottom: 15px;
+		right: 10px;
 	}
 }
 
@@ -360,5 +369,10 @@
 		.feed-form {
 			width: 100%;
 		}
+	}
+	.pageup {
+		height: 30px;
+		width: 30px;
+		right: 7px;
 	}
 }

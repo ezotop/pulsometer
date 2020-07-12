@@ -1,0 +1,33 @@
+@keyframes cupshake {
+    from {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    to {
+        transform: rotate(-5deg);
+    }
+}
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes shoewalk {
+    from {
+        transform: rotate(-15deg);
+    }
+    50% {
+        transform: rotate(18deg);
+    }
+    to {
+        transform: rotate(-15deg);
+    }
+}
